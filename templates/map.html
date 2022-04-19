@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+{% block content %}
+<main>
+    <table width="100%">
+        <tr>
+            <td>
+                <div class="text-dark bg-white" align="left">
+                    <div class="col-md-8 px-0">
+                        <h4 class="display-3 fst-italic">О нас</h4>
+                        <p class="lead my-4">Добро пожаловать на увлекательную интерактивную экскурсию по центру Санкт-Петербурга!
+                        Вы сможете увидеть достопримечательности и узнать необходимую информацию, не выходя из дома.
+                            Для того чтобы начать, пожалуйста, войдите в свой аккаунт. Если у вас все еще его нет,
+                            тогда чего же вы ждете, скорее пройдите регистрацию!
+                            Желаем вам приятного времяпровождения!
+                            Вы также можете оставить свой отзыв (вам не сложно, а нам приятно))
+                        </p>
+                    </div>
+                </div>
+            </td>
+            <td>
+                <div>
+                    <a><img src="https://api-maps.yandex.ru/services/constructor/1.0/static/?um=constructor%3A26574f6e5f8f6611dc63d0b3ebea77340af9fa54d305c5339acf72775dcce03a&amp;width=593&amp;height=376&amp;lang=ru_RU" alt="" style="border: 0;" /></a>
+                </div>
+                <div class="w-20 p-3 p-md-4 mb-3 text-dark bg-white" align="center">
+                    <div class="col-md-8 px-0">
+                        <p class="lead my-3">наш маршрут ☝︎</p>
+                        <a class="btn btn-danger text-dark" href="/smth">НАЧАТЬ</a>
+                    </div>
+                </div>
+            </td>
+        </tr>
+    </table>
+</main>
+
+{% endblock %}
