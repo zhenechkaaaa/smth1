@@ -2,9 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bd905c96-e3e0-4662-b94d-73a08dd0fd57" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/data/review.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forms/review.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/note_res.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/cool.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/review.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/__all_models.py" beforeDir="false" afterPath="$PROJECT_DIR$/data/__all_models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db/spb.db" beforeDir="false" afterPath="$PROJECT_DIR$/db/spb.db" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/map.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/map.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +42,11 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../pythonProject52" />
     <property name="settings.editor.selected.configurable" value="preferences.externalTools" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\уся\Web-приложение\resources" />
+    </key>
   </component>
   <component name="RunManager" selected="Python.main">
     <configuration name="__all_models" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
@@ -181,6 +194,18 @@
       <option name="presentableId" value="Default" />
       <updated>1632225561857</updated>
     </task>
+    <task id="LOCAL-00001" summary="))">
+      <created>1650357997683</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1650357997683</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="))" />
+    <option name="LAST_COMMIT_MESSAGE" value="))" />
   </component>
 </project>

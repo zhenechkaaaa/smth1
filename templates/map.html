@@ -1,6 +1,6 @@
 {% extends "base.html" %}
 {% block content %}
-<main>
+<main class="container">
     <table width="100%">
         <tr>
             <td>
@@ -12,7 +12,6 @@
                             Для того чтобы начать, пожалуйста, войдите в свой аккаунт. Если у вас все еще его нет,
                             тогда чего же вы ждете, скорее пройдите регистрацию!
                             Желаем вам приятного времяпровождения!
-                            Вы также можете оставить свой отзыв (вам не сложно, а нам приятно))
                         </p>
                     </div>
                 </div>
@@ -24,7 +23,13 @@
                 <div class="w-20 p-3 p-md-4 mb-3 text-dark bg-white" align="center">
                     <div class="col-md-8 px-0">
                         <p class="lead my-3">наш маршрут ☝︎</p>
-                        <a class="btn btn-danger text-dark" href="/smth">НАЧАТЬ</a>
+                        {% if current_user.is_authenticated %}
+                        <div class="btn-group-vertical">
+                            <a class="btn btn-danger text-dark" href="/smth">НАЧАТЬ</a>
+                        </div>
+                        {% else %}
+                        <p class="lead my-3">Для того, чтобы начать, пожалуйста, авторизируйтесь</p>
+                        {% endif %}
                     </div>
                 </div>
             </td>
