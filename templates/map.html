@@ -12,6 +12,8 @@
                             Для того чтобы начать, пожалуйста, войдите в свой аккаунт. Если у вас все еще его нет,
                             тогда чего же вы ждете, скорее пройдите регистрацию!
                             Желаем вам приятного времяпровождения!
+                            Если хотите, вы можете оставить свой отзыв.
+                            (Вам не сложно, а нам приятно😊)
                         </p>
                     </div>
                 </div>
@@ -36,5 +38,30 @@
         </tr>
     </table>
 </main>
+{% if current_user.is_authenticated %}
+<p class="lead my-3">Ваши отзывы 👇 </p>
+<a href="note/add" class="btn btn-secondary">Добавить отзыв</a>
+{% endif %}
 
+{% for item in notes%}
+<div class="col-md6 border rounded">
+    <h2>{{item.title}}</h2>
+    <div>
+        {{item.content}}
+    </div>
+    <div>
+        Автор - {{item.user.name}}
+    </div>
+    {% if current_user.is_authenticated and current_user == item.user %}
+    <div>
+        <a href="note/edit/{{ item.id }}" class="btn btn-secondary">
+            Изменить
+        </a>
+        <a href="note/delete/{{ item.id }}" class="btn btn-danger text-dark">
+            Удалить
+        </a>
+    </div>
+    {% endif %}
+</div>
+{% endfor %}
 {% endblock %}

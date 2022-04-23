@@ -1,17 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bd905c96-e3e0-4662-b94d-73a08dd0fd57" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/data/review.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forms/review.py" afterDir="false" />
+    <list default="true" id="bd905c96-e3e0-4662-b94d-73a08dd0fd57" name="Changes" comment="))">
+      <change afterPath="$PROJECT_DIR$/data/notes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forms/note.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/resources/note_res.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/cool.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/review.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/user_res.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/news.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/__all_models.py" beforeDir="false" afterPath="$PROJECT_DIR$/data/__all_models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db/spb.db" beforeDir="false" afterPath="$PROJECT_DIR$/db/spb.db" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/фон.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/map.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/map.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,11 +41,15 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../pythonProject52" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/templates" />
     <property name="settings.editor.selected.configurable" value="preferences.externalTools" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\уся\Web-приложение\templates" />
+      <recent name="C:\Users\уся\Web-приложение" />
+      <recent name="C:\Users\уся\Web-приложение\forms" />
+      <recent name="C:\Users\уся\Web-приложение\data" />
       <recent name="C:\Users\уся\Web-приложение\resources" />
     </key>
   </component>
@@ -201,7 +206,21 @@
       <option name="project" value="LOCAL" />
       <updated>1650357997683</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="))">
+      <created>1650616759006</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1650616759006</updated>
+    </task>
+    <task id="LOCAL-00003" summary="))">
+      <created>1650616982730</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1650616982730</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
